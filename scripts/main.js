@@ -1,12 +1,12 @@
 Hooks.once('diceSoNiceReady', dice3d => {
     dice3d.addSystem({
-        id: "bitd", name: "Blades in the Dark",
+        id: "tencandles", name: "Ten Candles",
     }, "preferred");
 
     dice3d.addColorset({
-        name: 'bitd-base',
-        category: 'Blades in the Dark',
-        description: 'Blades in the Dark Base Die',
+        name: 'tencandles-base',
+        category: 'Ten Candles',
+        description: 'Ten Candles Base Die',
         foreground: '#fff',
         background: '#2c2c2c',
         outline: 'none',
@@ -18,14 +18,27 @@ Hooks.once('diceSoNiceReady', dice3d => {
     dice3d.addDicePreset({
         type: 'd6',
         labels: [
-            'modules/neutro-dice-theme-bitd/textures/bitd/1.webp',
-            'modules/neutro-dice-theme-bitd/textures/bitd/2.webp',
-            'modules/neutro-dice-theme-bitd/textures/bitd/3.webp',
-            'modules/neutro-dice-theme-bitd/textures/bitd/4.webp',
-            'modules/neutro-dice-theme-bitd/textures/bitd/5.webp',
-            'modules/neutro-dice-theme-bitd/textures/bitd/6.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/d6/1.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/d6/2.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/d6/3.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/d6/4.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/d6/5.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/d6/6.webp',
         ],
-        system: 'bitd',
-        colorset: 'bitd-base',
+        system: 'tencandles',
+        colorset: 'tencandles-base',
+    });
+    dice3d.addDicePreset({
+        type: 'df',
+        labels: [
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/df/1.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/df/2.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/df/3.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/df/4.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/df/5.webp',
+            'modules/oxy949-ten-candles-dicetheme/assets/textures/df/6.webp',
+        ],
+        system: 'tencandles',
+        colorset: 'tencandles-base',
     });
 });

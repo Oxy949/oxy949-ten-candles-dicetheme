@@ -1,14 +1,24 @@
 {
-  "id": "neutro-dice-theme-bitd",
-  "title": "Blades in the Dark theme for Dice So Nice",
-  "description": "An add-on module for Dice So Nice, with a new theme for Blades in the Dark d6 dice. Credit goes to Benjamin Wenger for the dice art.",
+  "id": "oxy949-ten-candles-dicetheme",
+  "title": "Ten Candles theme for Dice So Nice",
+  "description": "An add-on module for Dice So Nice, with a new theme for Ten Candles d6 df dices.",
+  "version": "#{VERSION}#",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "authors": [
+    {
+      "name": "Oxy949",
+      "email": "oxy949@gmail.com",
+      "url": "https://boosty.to/oxy949",
+      "discord": "oxy949",
+      "flags": {}
+    },
     {
       "name": "Sergio Le Roux",
       "discord": "neutromancer"
     }
   ],
-  "version": "1.1.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12.331"
@@ -27,8 +37,5 @@
         }
       }
     ]
-  },
-  "url": "https://github.com/neutromancer/neutro-dice-theme-bitd",
-  "manifest": "https://github.com/neutromancer/neutro-dice-theme-bitd/releases/download/v1.1.0/module.json",
-  "download": "https://github.com/neutromancer/neutro-dice-theme-bitd/releases/download/v1.1.0/module.zip"
+  }
 }
