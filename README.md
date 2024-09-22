@@ -1,5 +1,8 @@
-# Blades in the Dark theme for Dice So Nice
-An add-on module for Dice So Nice, with a new theme for Blades in the Dark d6 dice.
+# Ten Candles for Dice So Nice
+An add-on module for Dice So Nice, with a new theme for Ten Candles d6 dice.
+
+`https://github.com/Oxy949/oxy949-ten-candles-dicetheme/releases/latest/download/module.json` 
+
 
 ![Preview](./dice-screenshot.png?raw=true)
 # Acknowledgement
